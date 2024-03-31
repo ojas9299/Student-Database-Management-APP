@@ -1,0 +1,15 @@
+
+  .form-container {
+    margin-top: 50px;
+  }
+
+  .custom-p-m{
+    margin: 30px 0px;
+  }
+  
+  body{
+    background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+      background-size:cover;
+      background-repeat:no-repeat;
+      background-position: center;
+    }

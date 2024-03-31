@@ -1,0 +1,35 @@
+body {
+  background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-custom-navbar {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+}
+
+.custom-card {
+  width: 400px; /* Adjust card width */
+  margin: 50px auto; /* Centering the card */
+}
+
+img {
+  max-width: 80%; /* Ensure the image does not exceed its container width */
+  max-height: 80%; /* Ensure the image does not exceed its container height */
+  border-radius: 50%; /* Make the border circular */
+  margin: 40px auto; /* Center the image horizontally and add vertical margin */
+  object-fit: cover; /* Fit the image within its container while preserving aspect ratio */
+}
+
+.card-body {
+  font-size: 20px; /* Adjust font size */
+}
+
+.card-title {
+  font-size: 24px; /* Adjust font size for card title */
+}

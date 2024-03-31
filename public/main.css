@@ -1,0 +1,32 @@
+body {
+  background-image: url("https://image.ibb.co/de6JzG/bitmap_1_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-custom-navbar {
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.9px);
+  -webkit-backdrop-filter: blur(3.9px);
+}
+
+/* Change background hover color and text color of update button */
+.update-btn:hover {
+  background-color: yellow !important;
+  color: black !important;
+}
+
+/* Change background hover color and text color of show button */
+.show-btn:hover {
+  background-color: green !important;
+  color: black !important;
+}
+
+/* Change background hover color and text color of delete button */
+.delete-btn:hover {
+  background-color: red !important;
+  color: black !important;
+}
