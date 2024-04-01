@@ -46,7 +46,7 @@ app.patch("/main/:id", (req, res) => {
   post.name = newname;
   post.place = newplace;
   post.rollno = newrollno;
-  res.redirect("/LP/main");
+  res.redirect("/main");
 });
 
 app.post("/main/create", (req, res) => {
