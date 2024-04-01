@@ -1,53 +1,51 @@
 let posts = [
     {   id : "1",
-        name : "Piyush Ghorpade  ",    
+        name : "Rajesh Sharma",
         rollno : "c23328",
-        place  : "Kolhapur",
+        place  : "Mumbai",
     },
 
     {    id : "2",
-        name : "Ashish Khedkar  ",    
+        name : "Priya Patel",
         rollno : "c23340",
-        place  : "Shirur",
+        place  : "Ahmedabad",
     },
 
     {    id : "3",
-        name : "Vaishnav Sagonkar  ",    
+        name : "Amit Dubey",
         rollno : "c23339",
-        place  : "Kolhapur",
+        place  : "Lucknow",
     },
 
     {    id : "4",
-        name : "Ojas Bhalerao  ",    
+        name : "Sneha Gupta",
         rollno : "c23362",
-        place  : "Pune",
+        place  : "Delhi",
     },
 
     {    id : "5",
-        name : "Jagruti Nandre ",    
+        name : "Ananya Singh",
         rollno : "c23334",
-        place  : "Shivne",
+        place  : "Jaipur",
     },
     
     {    id : "6",
-        name : "Tanishka Deshpande  ",    
+        name : "Rahul Joshi",
         rollno : "c23357",
         place  : "Pune",
     },
 
     {    id : "7",
-        name : "Srushti Nalawade",    
+        name : "Neha Sharma",
         rollno : "c23367",
-        place  : "Pune",
+        place  : "Chandigarh",
     },
     
     {    id : "8",
-        name : "Sakshi Khomane  ",    
+        name : "Kritika Verma",
         rollno : "c23309",
-        place  : "Pune",
+        place  : "Indore",
     },
-
 ]
-
 
 module.exports = {posts};
