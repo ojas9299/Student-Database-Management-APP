@@ -76,7 +76,7 @@ app.get("/error404", (req, res) => {
 app.delete("/main/:id", (req, res) => {
   let { id } = req.params;
   posts = posts.filter((p) => id !== p.id);
-  res.redirect("/LP/main");
+  res.redirect("/main");
 });
 
 app.listen(port, () =>
