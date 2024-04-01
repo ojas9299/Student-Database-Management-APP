@@ -14,30 +14,30 @@ app.use(methodoverride("_method"));
 const database = require("./database.js");
 let posts = database.posts;
 
-app.get("/LP", (req, res) => {
+app.get("/", (req, res) => {
   res.render("landpg");
 });
 
-app.get("/LP/main", (req, res) => {
+app.get("/main", (req, res) => {
   res.render("main", { posts });
 });
 
-app.get("/LP/form", (req, res) => {
+app.get("/form", (req, res) => {
   res.render("form");
 });
 
-app.get("/LP/main/create", (req, res) => {
+app.get("/main/create", (req, res) => {
   res.render("create.ejs");
 });
 
-app.get("/LP/main/:id/update", (req, res) => {
+app.get("/main/:id/update", (req, res) => {
   let { id } = req.params;
   console.log(id);
   let post = posts.find((p) => id === p.id);
   res.render("update.ejs", { post, posts });
 });
 
-app.patch("/LP/main/:id", (req, res) => {
+app.patch("/main/:id", (req, res) => {
   let { id } = req.params;
   let newname = req.body.name;
   let newrollno = req.body.rollno;
@@ -49,31 +49,31 @@ app.patch("/LP/main/:id", (req, res) => {
   res.redirect("/LP/main");
 });
 
-app.post("/LP/main/create", (req, res) => {
+app.post("/main/create", (req, res) => {
   let { name, rollno, place } = req.body;
   posts.push({ name, rollno, place });
   console.log(posts);
   res.render("main", { posts });
 });
 
-app.post("/LP/main", (req, res) => {
+app.post("/main", (req, res) => {
   let { email, password } = req.body;
   res.render("main", { posts });
   console.log(posts);
 });
 
-app.get("/LP/main/:id", (req, res) => {
+app.get("/main/:id", (req, res) => {
   let { id } = req.params;
   console.log(id);
   let post = posts.find((p) => id === p.id);
   res.render("details.ejs", { post, posts });
 });
 
-app.get("/LP/error404", (req, res) => {
+app.get("/error404", (req, res) => {
   res.render("error404");
 });
 
-app.delete("/LP/main/:id", (req, res) => {
+app.delete("/main/:id", (req, res) => {
   let { id } = req.params;
   posts = posts.filter((p) => id !== p.id);
   res.redirect("/LP/main");

@@ -53,7 +53,7 @@
     </nav>
     <!-- navbar -->
 
-    <a href="/LP/main/create" class="btn btn-primary mx-5 px-5">Create</a>
+    <a href="/main/create" class="btn btn-primary mx-5 px-5">Create</a>
 
     <div class="container-fluid mt-3">
       <table
@@ -89,21 +89,19 @@
                   <li>
                     <a
                       class="dropdown-item update-btn"
-                      href="/LP/main/<%=post.id%>/update"
+                      href="/main/<%=post.id%>/update"
                       >Update</a
                     >
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item show-btn"
-                      href="/LP/main/<%=post.id%>"
+                    <a class="dropdown-item show-btn" href="/main/<%=post.id%>"
                       >Show</a
                     >
                   </li>
                   <li>
                     <form
                       method="POST"
-                      action="/LP/main/<%=post.id%>?_method=DELETE"
+                      action="/main/<%=post.id%>?_method=DELETE"
                       id="deleteForm<%=post.id%>"
                     >
                       <input type="hidden" name="_method" value="DELETE" />
