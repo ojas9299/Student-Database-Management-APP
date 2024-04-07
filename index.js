@@ -9,9 +9,12 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 app.use(methodoverride("_method"));
+const { v4: uuidv4 } = require("uuid");
+uuidv4();
 // <----Dependencies---->
 
 const database = require("./database.js");
+const { extractNameFromEmail } = require("./database.js");
 let posts = database.posts;
 
 app.get("/", (req, res) => {
@@ -51,20 +54,28 @@ app.patch("/main/:id", (req, res) => {
 
 app.post("/main/create", (req, res) => {
   let { name, rollno, place } = req.body;
-  posts.push({ name, rollno, place });
-  console.log(posts);
+  let id = uuidv4();
+  posts.push({ name, rollno, place, id });
   res.render("main", { posts });
 });
 
 app.post("/main", (req, res) => {
   let { email, password } = req.body;
-  res.render("main", { posts });
-  console.log(posts);
+  //
+  function extractNameFromEmail(email) {
+    const parts = email.split("@");
+    const name = parts[0];
+    const capitalized = name.replace(/\b\w/g, (char) => char.toUpperCase());
+    return capitalized;
+  }
+  //
+  let name = extractNameFromEmail(email);
+  console.log(email, password, name);
+  res.render("main", { posts, name });
 });
 
 app.get("/main/:id", (req, res) => {
   let { id } = req.params;
-  console.log(id);
   let post = posts.find((p) => id === p.id);
   res.render("details.ejs", { post, posts });
 });
