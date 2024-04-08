@@ -60,18 +60,7 @@ app.post("/main/create", (req, res) => {
 });
 
 app.post("/main", (req, res) => {
-  let { email, password } = req.body;
-  //
-  function extractNameFromEmail(email) {
-    const parts = email.split("@");
-    const name = parts[0];
-    const capitalized = name.replace(/\b\w/g, (char) => char.toUpperCase());
-    return capitalized;
-  }
-  //
-  let name = extractNameFromEmail(email);
-  console.log(email, password, name);
-  res.render("main", { posts, name });
+  res.render("main", { posts });
 });
 
 app.get("/main/:id", (req, res) => {
