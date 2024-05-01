@@ -1,0 +1,146 @@
+[
+  {
+    "id": "981e7ded-9185-474a-bd0c-479d968c0541",
+    "name": "Rajesh Sharma",
+    "rollno": "c23328",
+    "place": "Mumbai"
+  },
+  {
+    "id": "35d84f28-f953-40b4-9ed2-a4a99252218c",
+    "name": "Priya Patel",
+    "rollno": "c23340",
+    "place": "Ahmedabad"
+  },
+  {
+    "id": "32edf3ce-44aa-484e-beea-425fec2101b2",
+    "name": "Amit Dubey",
+    "rollno": "c23339",
+    "place": "Lucknow"
+  },
+  {
+    "id": "56f1563a-3ded-4d95-a688-9341bb25cbfb",
+    "name": "Sneha Gupta",
+    "rollno": "c23362",
+    "place": "Delhi"
+  },
+  {
+    "id": "59f44417-cfad-41a7-bd06-8cdc96dd0869",
+    "name": "Ananya Singh",
+    "rollno": "c23334",
+    "place": "Jaipur"
+  },
+  {
+    "id": "ed8b0afb-102f-4ec5-929d-2ba487bc8e51",
+    "name": "Rahul Joshi",
+    "rollno": "c23357",
+    "place": "Pune"
+  },
+  {
+    "id": "88ec8fba-4a36-463e-92f9-f12dab6f3e28",
+    "name": "Neha Sharma",
+    "rollno": "c23367",
+    "place": "Chandigarh"
+  },
+  {
+    "id": "a7fbe89c-4e7d-4030-936e-2e19e4110112",
+    "name": "Kritika Verma",
+    "rollno": "c23309",
+    "place": "Indore"
+  },
+  {
+    "id": "33364d53-228f-42a6-bd87-525265238e9f",
+    "name": "Suresh Kumar",
+    "rollno": "c23372",
+    "place": "Bangalore"
+  },
+  {
+    "id": "d6d83447-b426-4596-a1fc-37febbe0f411",
+    "name": "Pooja Gupta",
+    "rollno": "c23383",
+    "place": "Kolkata"
+  },
+  {
+    "id": "51f5bc29-27f1-4930-aa42-ea436b4d8e4c",
+    "name": "Vikram Singh",
+    "rollno": "c23392",
+    "place": "Hyderabad"
+  },
+  {
+    "id": "81659731-7bdd-41c0-a921-d4e4eae3f43a",
+    "name": "Deepak Sharma",
+    "rollno": "c23401",
+    "place": "Chennai"
+  },
+  {
+    "id": "4eb446ca-3bd6-4bb9-a480-98ccf75bc3bb",
+    "name": "Meena Patel",
+    "rollno": "c23415",
+    "place": "Surat"
+  },
+  {
+    "id": "7e591cba-4af9-47ff-ad56-7a2e68582176",
+    "name": "Rajeshwari Verma",
+    "rollno": "c23423",
+    "place": "Nagpur"
+  },
+  {
+    "id": "15b812ec-0585-4166-83a9-ce87cf2dbd92",
+    "name": "Ajay Kumar",
+    "rollno": "c23434",
+    "place": "Jaipur"
+  },
+  {
+    "id": "6823d029-6d27-41be-8bf7-4cbf9211644c",
+    "name": "Geeta Mishra",
+    "rollno": "c23447",
+    "place": "Patna"
+  },
+  {
+    "id": "71edbf99-e51a-45ea-b691-415f5f775661",
+    "name": "Nitin Gupta",
+    "rollno": "c23458",
+    "place": "Allahabad"
+  },
+  {
+    "id": "403e0110-a49d-4107-9ff8-7b410fe35696",
+    "name": "Jyoti Singh",
+    "rollno": "c23467",
+    "place": "Agra"
+  },
+  {
+    "id": "470f7392-dd98-4f05-87fd-d0ec9a5b660a",
+    "name": "Sanjay Yadav",
+    "rollno": "c23476",
+    "place": "Varanasi"
+  },
+  {
+    "id": "4433cae0-c32d-4ffb-b5a6-cf264b217365",
+    "name": "Aarti Sharma",
+    "rollno": "c23488",
+    "place": "Ghaziabad"
+  },
+  {
+    "id": "3de86528-a43f-4183-a251-28e9a79dceb7",
+    "name": "Rahul Singh",
+    "rollno": "c23503",
+    "place": "Ludhiana"
+  },
+  {
+    "id": "98ff4956-8c59-4dee-b174-f66caa805038",
+    "name": "Nisha Verma",
+    "rollno": "c23514",
+    "place": "Faridabad"
+  },
+  {
+    "id": "ac60bb5c-3830-41e0-a409-10fa5ebfecf2",
+    "name": "Vivek Tiwari",
+    "rollno": "c23523",
+    "place": "Thane"
+  },
+  {
+    "id": "c46798de-208f-4b3c-b19e-58a68e19bf26",
+    "name": "Seema Singh",
+    "rollno": "c23536",
+    "place": "Bhopal"
+  }
+]
